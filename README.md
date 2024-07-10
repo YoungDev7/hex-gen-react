@@ -1,8 +1,10 @@
-# React + Vite
+#random hexadecimal generator (react)
+This is my random hex color generator written using react and tailwind, its identical to my [hex-gen](https://github.com/YoungDev7/hex-gen) app that ive made in javascript and plain css. Purpose of this project was learn react and tailwind. Features are the same as the javascript version except that its responsive for mobile devices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- random color generation
+- click to copy to clipboard 
+- set color as favorite
+- name tag favorited colors
+- favorite colors are stored using localstorage
+- responsive 
