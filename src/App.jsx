@@ -127,7 +127,7 @@ function App() {
     <>
       <SideNav isOpen={isOpen} favColors={favColors} setFavColors={setFavColors} copyFuc={CopyToClipboard} favFunc={RemoveColorFromFavorites}  />
       {/* MAIN */}
-      <div id='main' onClick={HandleMainClick} className={`flex items-center justify-center flex-row transition-all duration-500 p-5 ${isOpen ? "mr-0 sm:mr-[350px]" : "mr-0"}`}>
+      <div id='main' onClick={HandleMainClick} className={`flex items-center justify-center flex-row transition-all duration-500 p-5 h-screen ${isOpen ? "mr-0 sm:mr-[350px]" : "mr-0"}`}>
         <div id='container' className='flex items-center justify-center flex-col h-[70vh] uppercase'>
           <div id='text' className='inline p-3 bg-black/50 rounded-xl shadow-custom-shadow'>
               <div id='text1' className='inline text-white mr-3 select-none'>random color</div>
