@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
-import SideNav from './SideNav'
+import { useEffect, useState } from 'react';
+import SideNav from './SideNav';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -148,6 +148,13 @@ function App() {
         <div onClick={HandleNavButtonClick} className={`text-white p-5 bg-black/50 rounded-tl-[25px] rounded-bl-[25px] pl-5 relative transition-all duration-500 group ${isOpen ? "right-[70vw] sm:right-[350px]" : "right-0 hover:pl-12"}`}>
           <i className={`fa fa-star relative left-0 transition-all duration-500 text-yellow-500 ${isOpen ? "" : "group-hover:-left-[30px]"}`} aria-hidden="true"></i>
         </div>
+      </div>
+      {/* GITHUB LINK */}
+      <div className='absolute bottom-5 left-5'>
+        <a href="https://github.com/YoungDev7/hex-gen-react" target="_blank" rel="noopener noreferrer" className='flex items-center gap-2 p-3 bg-black text-white rounded-lg shadow-custom-shadow transition-all duration-300 hover:bg-gray-800'>
+          <i className="fa fa-github" aria-hidden="true"></i>
+          <span className='text-sm'>GitHub</span>
+        </a>
       </div>
     </>
 
